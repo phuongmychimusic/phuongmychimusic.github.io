@@ -1,0 +1,45 @@
+{
+  "name": "Phương Mỹ Chi",
+  "short_name": "Phương Mỹ Chi Music",
+  "description": "Phương Mỹ Chi- Âm Nhạc và Video Mới Nhất",
+  "homepage": "https://phuongmychi.github.io",
+  "publisher": "Phuong My Chi Entertainment Co., Ltd",
+  "start_url": "./?utm_source=homescreen",
+  "version": "3.4.0",
+  "orientation": "portrait",
+  "display": "standalone",
+  "theme_color": "#262626",
+  "background_color": "#FFFFFF",
+  "icons": [
+    {
+      "src": "https://phuongmychi.github.io/icons/apple-icon-57x57.png",
+      "sizes": "57x57",
+      "type": "image/png"
+    },
+    {
+      "src": "https://phuongmychi.github.io/icons/apple-icon-114x114.png",
+      "sizes": "114x114",
+      "type": "image/png"
+    },
+    {
+      "src": "https://phuongmychi.github.io/icons/apple-icon-120x120.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    },
+    {
+      "src": "https://phuongmychi.github.io/icons/apple-icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "https://phuongmychi.github.io/icons/apple-icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "https://phuongmychi.github.io/icons/apple-icon-180x180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

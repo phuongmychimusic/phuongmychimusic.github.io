@@ -1,0 +1,4 @@
+#I love Phuong My Chi
+User-agent: *
+Disallow:
+Sitemap: https://phuongmychi.web.app/sitemap.xml

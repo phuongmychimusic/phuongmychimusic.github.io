@@ -1,0 +1,61 @@
+{
+    "Video": {
+        "items": [
+            {"name":"Nỗi lòng con yêu", 
+            "image":"img/noi-long-con-yeu.jpg",
+            "url" : "noi-long-con-yeu",
+            "src":"noi-long-con-yeu.mp4"},
+
+            {"name":"Gánh chè đêm của mẹ", 
+            "image":"img/noi-long-con-yeu.jpg",
+            "url" :"ganh-che-dem-cua-me",
+            "src":"ganh-che-dem-cua-me.mp4"},
+            
+            {"name":"Gợi nhớ quê hương", 
+                "image":"img/goi-nho-que-huong.jpg",
+                "url":"goi-nho-que-huong",
+                "src":"goi-nho-que-huong.mp4"},
+                
+            {"name":"Album Thương về miền trung", 
+                "image":"img/noi-long-con-yeu.jpg",
+                "url":"album-thuong-ve-mien-trung",
+                "src":"album-thuong-ve-mien-trung.mp4"},
+
+              {"name":"Hạ buồn", 
+                "image":"img/ha-buon.jpg",
+                "url" :"ha-buon",
+                "src":"ha-buon.mp4"},
+                
+                {"name":"Quê em mùa nước lũ", 
+                "image":"img/que-em-mua-nuoc-lu.jpg",
+                "url":"que-em-mua-nuoc-lu",
+                "src":"que-em-mua-nuoc-lu.mp4"},
+
+                {"name":"Gái nhà nghèo", 
+                    "image":"img/gai-nha-ngheo.jpg",
+                    "url":"gai-nha-ngheo",
+                    "src":"gai-nha-ngheo.mp4"},
+                 
+                {"name":"Nhạt nắng", 
+                    "image":"img/xuan-dep-lam-sao.jpg",
+                    "url":"nhat-nang",
+                    "src":"nhat-nang.mp4"}, 
+                    
+                {"name":"Xuân đẹp làm sao", 
+                "image":"img/xuan-dep-lam-sao.jpg",
+                "url":"xuan-dep-lam-sao",
+                "src":"xuan-dep-lam-sao.mp4"},    
+
+                {"name":"Vùng lá me bay", 
+                    "image":"img/vung-la-me.jpg",
+                    "url":"vung-la-me-bay",
+                    "src":"vung-la-me-bay.mp4"},
+
+                    {"name":"Giấc ngủ đầu nôi", 
+                        "image":"img/giac-ngu-dau-noi.jpg",
+                        "url":"giac-ngu-dau-noi",
+                        "src":"giac-ngu-dau-noi.mp4"}
+        ]
+       
+    }
+}

@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Service Not available | Phuong My Chi Music</title>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <meta name="description" content="Phuong My Chi Music là website nghe nhạc, xem video, cập nhật thông tin và tiểu sử về Phương Mỹ Chi,hỗ trợ tất cả các nền tảng Android, IOS, Windows và Java" />
+    <meta name="keyword" content="Thông tin ca sĩ Phương Mỹ Chi, Tiểu sử ca sĩ Phương Mỹ Chi,tieu su phuong my chi, thong tin phuong my chi, ca sĩ Phương Mỹ Chi" />
+    <meta property="og:title" content="Tiểu sử và Thông Tin Ca sĩ Phương Mỹ Chi"/>
+  <meta property="og:site_name" content="Phuong My Chi Music - Music is the voice of the soul"/>
+     <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <style>
+        #pmcv{
+            background-image: url(/img/beiupmc.png) ;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: fixed;
+            background-attachment: scroll;
+            background-position: 50% 50%;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 70%;
+            content: "";
+            z-index: 0;
+
+        }
+       @media (orientation: portrait) {
+            #pmcv{
+              display: none;
+            }
+        }
+    </style>
+  </head>
+  <body>
+  
+    <div id="lovemychi"></div>
+
+    <script type="text/babel">
+      class NoService extends React.Component {
+        render() {
+          return(<div>
+            <div className='container-md' style={{marginTop:"10%"}}>
+               <main>
+                <div className='row'>
+                    <div className='col-sm-8'>
+                        <div className='alert alert-danger' >
+                            <p><strong>Sorry !</strong> This content is only available in Vietnam. We're working hard to make the content you love available to more countries as quickly as possible.
+                                 Please check back soon. In the meantime, you can follow Phuong My Chi at <a href='https://fb.me/phuongmychi' target="_blank">Here</a>.</p>
+                    <p> If you are in VN and think this is a <strong> Confusion </strong> please <a href='https://phuongmychi.web.app'> Reload </a> page </ p>
+                                <hr/>
+                            <p><strong>Rất tiếc</strong>  Nội dung này chỉ có sẵn ở quốc gia Việt Nam.
+                            Chúng tôi đang nỗ lực để cung cấp nội dung bạn yêu thích cho nhiều quốc gia hơn một cách nhanh nhất có thể.
+                            Vui lòng sớm kiểm tra lại,trong lúc chờ đợi bạn có thể theo dõi Phương Mỹ Chi  <a href='https://fb.me/phuongmychi' target="_blank">Tại đây</a> </p>
+                            <p>Nếu bạn đang ở VN và  cho đây là một <strong>Sự nhầm lẫn</strong> vui lòng  <a href='https://phuongmychi.web.app'>Tải lại</a> trang</p>
+                        </div>
+                    </div>
+                    <div className='col-sm-3' id="pmcv">
+                       
+                    </div>
+
+                </div>
+                </main>
+                <footer style={{textAlign:"center",marginTop:"30%"}}>
+                    Copyright © 2014 -2020 <a href='https://youtube.com/phuongmychiofficial'>Phuong My Chi Entertainment CO.,LTD</a> , All right reserved
+                </footer>
+            </div>
+      </div>)
+        }
+      }
+
+      ReactDOM.render(<NoService />, document.getElementById('lovemychi'))
+    </script>
+  </body>
+</html>
