@@ -1,5 +1,4 @@
 # phuongmychi.github.io
-# Trang này được tạo tự động dựa trên sự yêu quý Phương Mỹ Chi
 Copyright © 2019 Phuong My Chi Entertainment <br/>
 Web: https://phuongmychi.github.io<br/>
 Follow Phuong My Chi :<br/>
